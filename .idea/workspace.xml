@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1tL8l5JSyAbh8vP0GRl2qIbBU0A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JSExplicifyFields.moveToInitializer" value="true" />
+    <property name="JSInitializeFieldsIntentionBase.visibility" value="private" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.exercise9.js">
+    <configuration name="exercise4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise4.js" working-dir="$PROJECT_DIR$/week_2">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise6.js" working-dir="$PROJECT_DIR$/week_2">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise7.js" working-dir="$PROJECT_DIR$/week_2">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise8.js" working-dir="$PROJECT_DIR$/week_2">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise9.js" working-dir="$PROJECT_DIR$/week_2">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.exercise4.js" />
+      <item itemvalue="Node.js.exercise6.js" />
+      <item itemvalue="Node.js.exercise7.js" />
+      <item itemvalue="Node.js.exercise8.js" />
+      <item itemvalue="Node.js.exercise9.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.exercise9.js" />
+        <item itemvalue="Node.js.exercise8.js" />
+        <item itemvalue="Node.js.exercise7.js" />
+        <item itemvalue="Node.js.exercise6.js" />
+        <item itemvalue="Node.js.exercise4.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="$USER_HOME$/dev" CustomDictionaries="1" CustomDictionary0="$USER_HOME$/dev/odm.txt" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="" />
+      <created>1622537157856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622537157856</updated>
+      <workItem from="1622537159459" duration="56000" />
+      <workItem from="1624642087801" duration="44000" />
+      <workItem from="1624642154089" duration="4000" />
+      <workItem from="1624868952330" duration="13750000" />
+      <workItem from="1625302116899" duration="1571000" />
+      <workItem from="1625505323806" duration="2013000" />
+      <workItem from="1625589784651" duration="2680000" />
+      <workItem from="1625595333356" duration="14511000" />
+      <workItem from="1625689734511" duration="624000" />
+      <workItem from="1625758722420" duration="13177000" />
+      <workItem from="1625929760768" duration="3469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
