@@ -10,8 +10,10 @@ console.log('');
 
 
 const cityNamesLengthIsEven = city => !(city.length % 2);
-const printCities = city => console.log(city.toUpperCase())
+const toUpper = cityName => cityName.toUpperCase();
+const printCities = city => console.log(city);
 
 cities
     .filter(cityNamesLengthIsEven)
+    .map(toUpper)
     .forEach(printCities);
