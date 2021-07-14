@@ -5,7 +5,7 @@ var user_name;
 let varr = 6;
 // const errorPremision = 0;
 
-const Name = new String();
+const Name = String();
 
 const name = 'luca';
 
