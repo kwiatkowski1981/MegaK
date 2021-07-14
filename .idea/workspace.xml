@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="initial added a new exercise&#10;fetch">
-      <change afterPath="$PROJECT_DIR$/week_3/exercise2.js" afterDir="false" />
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added a new exercise&#10;async/await basic template examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/exericise3.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/exericise3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,14 +54,11 @@
       <recent name="$PROJECT_DIR$/week_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.exercise2.js">
+  <component name="RunManager" selected="Node.js.exericise3.js">
     <configuration name="exercise1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_3/exercise1.js" working-dir="$PROJECT_DIR$/week_3">
       <method v="2" />
     </configuration>
     <configuration name="exercise2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_3/exercise2.js" working-dir="$PROJECT_DIR$/week_3">
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise7.js" working-dir="$PROJECT_DIR$/week_2">
       <method v="2" />
     </configuration>
     <configuration name="exercise8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_2/exercise8.js" working-dir="$PROJECT_DIR$/week_2">
@@ -70,20 +67,23 @@
     <configuration name="exercise9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="exercise9.js" working-dir="$PROJECT_DIR$/week_2">
       <method v="2" />
     </configuration>
+    <configuration name="exericise3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_3/exericise3.js" working-dir="$PROJECT_DIR$/week_3">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.exercise7.js" />
       <item itemvalue="Node.js.exercise8.js" />
       <item itemvalue="Node.js.exercise9.js" />
       <item itemvalue="Node.js.exercise1.js" />
       <item itemvalue="Node.js.exercise2.js" />
+      <item itemvalue="Node.js.exericise3.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.exericise3.js" />
         <item itemvalue="Node.js.exercise2.js" />
         <item itemvalue="Node.js.exercise1.js" />
         <item itemvalue="Node.js.exercise9.js" />
         <item itemvalue="Node.js.exercise8.js" />
-        <item itemvalue="Node.js.exercise7.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,7 @@
       <workItem from="1626101541771" duration="706000" />
       <workItem from="1626161614636" duration="504000" />
       <workItem from="1626162138147" duration="4949000" />
-      <workItem from="1626169603652" duration="8705000" />
+      <workItem from="1626169603652" duration="11292000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625936330516</created>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626246645452</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added a new exercise&#10;async/await basic template examples">
+      <created>1626270613680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626270613680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial added a new exercise&#10;fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial added a new exercise&#10;fetch" />
+    <MESSAGE value="added a new exercise&#10;async/await basic template examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a new exercise&#10;async/await basic template examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
