@@ -1,0 +1,7 @@
+nowa metoda importowania modułów w js
+const {setTimeout, setInterval} = require('timers/promises');
+
+po zaimportowaniu setInterval(), node wymaga dodania nawiasów {}, why?
+
+zmiana na funkcje strzałkowa przez context menu
+
