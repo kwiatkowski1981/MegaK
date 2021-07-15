@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added changed my old fetch-exercise to async version">
-      <change afterPath="$PROJECT_DIR$/week_3/DOM/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_3/DOM/index.html" afterDir="false" />
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added simply DOM manipulation script&#10;basics of js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/DOM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/DOM/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/DOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/DOM/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +74,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.exercise4.js" />
       <item itemvalue="Node.js.exercise3.js" />
       <item itemvalue="Node.js.exercise5.js" />
       <item itemvalue="Node.js.app.js" />
-      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
@@ -115,7 +115,9 @@
       <workItem from="1626161614636" duration="504000" />
       <workItem from="1626162138147" duration="4949000" />
       <workItem from="1626169603652" duration="18640000" />
-      <workItem from="1626331278650" duration="3989000" />
+      <workItem from="1626331278650" duration="5642000" />
+      <workItem from="1626348466449" duration="7017000" />
+      <workItem from="1626358216118" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625936330516</created>
@@ -173,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626336012079</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added simply DOM manipulation script&#10;basics of js">
+      <created>1626339826660</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626339826660</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +207,8 @@
     <MESSAGE value="added async/await setTimeout / setInterval" />
     <MESSAGE value="added basic exercises with async/await setTimeout / setInterval" />
     <MESSAGE value="added changed my old fetch-exercise to async version" />
-    <option name="LAST_COMMIT_MESSAGE" value="added changed my old fetch-exercise to async version" />
+    <MESSAGE value="added simply DOM manipulation script&#10;basics of js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added simply DOM manipulation script&#10;basics of js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
