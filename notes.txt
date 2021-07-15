@@ -5,3 +5,7 @@ po zaimportowaniu setInterval(), node wymaga dodania nawiasów {}, why?
 
 zmiana na funkcje strzałkowa przez context menu
 
+(async () => {
+    const response = await(await fetch('https://swapi.dev/api/people/1/')).json();
+    console.log(response);
+})();
