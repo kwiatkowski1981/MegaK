@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added resolved '0' to '00' problem after siteReload">
-      <change afterPath="$PROJECT_DIR$/week_3/DOM2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_3/DOM2/introductionToJson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_3/DOM2/localstorage.js" afterDir="false" />
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added new lesson about Json and localStorage&#10;created 3 new files which i;ll need for my homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/DOM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/DOM/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/homework/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/homework/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/homework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/homework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/homework/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/homework/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +47,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.16" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/week_3/DOM2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,14 +65,14 @@
       <recent name="$PROJECT_DIR$/week_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.localstorage.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/week_3/homework/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/week_3/DOM/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_3/DOM/app.js" working-dir="$PROJECT_DIR$/week_3/DOM">
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_3/exercise4.js" working-dir="$PROJECT_DIR$/week_3">
       <method v="2" />
     </configuration>
     <configuration name="exercise5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_3/exercise5.js" working-dir="$PROJECT_DIR$/week_3">
@@ -80,18 +83,18 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="Node.js.exercise4.js" />
       <item itemvalue="Node.js.exercise5.js" />
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.localstorage.js" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.localstorage.js" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.localstorage.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.exercise5.js" />
-        <item itemvalue="Node.js.exercise4.js" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +128,7 @@
       <workItem from="1626358216118" duration="802000" />
       <workItem from="1626359024114" duration="607000" />
       <workItem from="1626362687836" duration="1223000" />
-      <workItem from="1626422776159" duration="5240000" />
+      <workItem from="1626422776159" duration="26479000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625936330516</created>
@@ -204,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626426623878</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added new lesson about Json and localStorage&#10;created 3 new files which i;ll need for my homework">
+      <created>1626430150239</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626430150239</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +242,8 @@
     <MESSAGE value="added simply DOM manipulation script&#10;basics of js" />
     <MESSAGE value="added some localStorage usage" />
     <MESSAGE value="added resolved '0' to '00' problem after siteReload" />
-    <option name="LAST_COMMIT_MESSAGE" value="added resolved '0' to '00' problem after siteReload" />
+    <MESSAGE value="added new lesson about Json and localStorage&#10;created 3 new files which i;ll need for my homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new lesson about Json and localStorage&#10;created 3 new files which i;ll need for my homework" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

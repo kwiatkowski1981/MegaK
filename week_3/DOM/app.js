@@ -4,7 +4,7 @@ const btnResetClick = document.querySelector('.btn-reset-click');
 const digits = document.querySelector('.counter-digits');
 const digitsMouseDown = document.querySelector('.counter-digits-mouse-down');
 const digitsMouseUp = document.querySelector('.counter-digits-mouse-up');
-const body = document.body;
+
 // let counter = 0;
 
 // btnAddClick.addEventListener('click', (e) => {
