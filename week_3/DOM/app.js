@@ -20,11 +20,15 @@ let currentValue = 0;
 let currentValueMouseDown = 0;
 let currentValueMouseUp = 0;
 
+
 const key = 'new click';
 if (!localStorage.getItem(key)) {
     localStorage.setItem(key, '0');
 } else {
-    digits.innerText = localStorage.getItem(key);
+    digits.innerText =
+        localStorage.getItem(key) < 10 ?
+            '0' + localStorage.getItem(key) :
+            localStorage.getItem(key);
 }
 
 
@@ -32,7 +36,10 @@ const keyMouseDown = 'new clickMouseDown';
 if (!localStorage.getItem(keyMouseDown)) {
     localStorage.setItem(keyMouseDown, '0');
 } else {
-    digitsMouseDown.innerText = localStorage.getItem(keyMouseDown);
+    digitsMouseDown.innerText =
+        localStorage.getItem(keyMouseDown) < 10 ?
+            '0' + localStorage.getItem(keyMouseDown) :
+            localStorage.getItem(keyMouseDown);
 }
 
 
@@ -40,7 +47,10 @@ const keyMouseUp = 'new clickMouseUp';
 if (!localStorage.getItem(keyMouseUp)) {
     localStorage.setItem(keyMouseUp, '0');
 } else {
-    digitsMouseUp.innerText = localStorage.getItem(keyMouseUp);
+    digitsMouseUp.innerText =
+        localStorage.getItem(keyMouseUp) < 10 ?
+            '0' + localStorage.getItem(keyMouseUp) :
+            localStorage.getItem(keyMouseUp);
 }
 
 
@@ -108,9 +118,10 @@ btnRemoveClick.addEventListener('mouseup', (e) => {
         currentValueMouseUp = parseInt(localStorage.getItem(keyMouseUp));
         if (currentValueMouseUp > 0) {
             localStorage.setItem(keyMouseUp, parseInt(localStorage.getItem(keyMouseUp)) - 1);
-            digitsMouseUp.innerHTML = localStorage.getItem(keyMouseUp) < 10 ?
-                '0' + localStorage.getItem(keyMouseUp) :
-                localStorage.getItem(keyMouseUp);
+            digitsMouseUp.innerHTML =
+                localStorage.getItem(keyMouseUp) < 10 ?
+                    '0' + localStorage.getItem(keyMouseUp) :
+                    localStorage.getItem(keyMouseUp);
         }
     }
 );
@@ -118,12 +129,16 @@ btnRemoveClick.addEventListener('mouseup', (e) => {
 
 btnResetClick.addEventListener('click', (e) => {
         localStorage.clear();
-        localStorage.setItem(key, '00');
-        localStorage.setItem(keyMouseDown, '00');
-        localStorage.setItem(keyMouseUp, '00');
-        digits.innerHTML = localStorage.getItem(key);
-        digitsMouseDown.innerHTML = localStorage.getItem(keyMouseDown);
-        digitsMouseUp.innerHTML = localStorage.getItem(keyMouseUp);
+        localStorage.setItem(key, '0');
+        localStorage.setItem(keyMouseDown, '0');
+        localStorage.setItem(keyMouseUp, '0');
+        currentValue = '00'
+        currentValueMouseDown = '00'
+        currentValueMouseUp = '00'
+        digits.innerHTML = currentValue;
+        digitsMouseDown.innerHTML = currentValueMouseDown;
+        digitsMouseUp.innerHTML = currentValueMouseUp;
     }
 );
 
+// document.location.reload(true)
