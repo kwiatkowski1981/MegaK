@@ -64,11 +64,8 @@ section .color:nth-child(3) {
 
 .container-header {
     width: 80vw;
-    /*margin: auto;*/
     margin-top: 140px;
     border-radius: 8px;
-
-    /*background-color: bisque;*/
 }
 
 .container-btn {

@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #666;
+
+}
+
+
+.main-container .color {
+    position: absolute;
+    filter: blur(150px);
+}
+
+.main-container .color:nth-child(1) {
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background: #ff359b;
+}
+
+.main-container .color:nth-child(2) {
+    top: 500px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background: #fffd87;
+}
+
+.main-container .color:nth-child(3) {
+    top: 150px;
+    right: 100px;
+    width: 300px;
+    height: 700px;
+    background: #00d2ff;
+}
+
+
+.form-group-container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 70vw;
+    height: 70vw;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 2px 8px 2px;
+    padding: 4px 16px;
+}
+
+.container-btn {
+    position: relative;
+    padding: 8px 16px;
+    display: flex;
+
+}
+
+.btn-submit, .btn-reset {
+    width: 20vw;
+    padding: 4px 8px;
+    border-radius: 16px;
+    margin: 8px 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.numbers {
+    width: 50vw;
+    padding: 4px 8px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.result {
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 2em;
+}
