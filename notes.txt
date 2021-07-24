@@ -9,3 +9,15 @@ zmiana na funkcje strzałkowa przez context menu
     const response = await(await fetch('https://swapi.dev/api/people/1/')).json();
     console.log(response);
 })();
+
+week4 day2 oop 25:30min
+czy można zapisać tak?
+
+   add(item) {
+        this.items.push(item);
+        this.addToTotalValue(item);
+    }
+
+    addToTotalValue(newPrice) {
+        this.totalValue += newPrice.productPrice;
+    }
