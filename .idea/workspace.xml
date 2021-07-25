@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added my homework part two">
-      <change afterPath="$PROJECT_DIR$/week_4/exercise1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_4/exercise2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_4/shop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_4/shop/src/basket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_4/shop/src/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/megaK.iml" afterDir="false" />
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added week 4 and OOP project day one + two">
+      <change afterPath="$PROJECT_DIR$/week_4/shop/src/admin-ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/shop/src/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/shop/src/basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/shop/src/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/shop/src/ui.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +130,7 @@
       <workItem from="1626359024114" duration="607000" />
       <workItem from="1626362687836" duration="1223000" />
       <workItem from="1626422776159" duration="51869000" />
-      <workItem from="1627106940515" duration="21169000" />
+      <workItem from="1627106940515" duration="34665000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625936330516</created>
@@ -234,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626637802776</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added week 4 and OOP project day one + two">
+      <created>1627144272945</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627144272945</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +268,8 @@
     <MESSAGE value="added new lesson about Json and localStorage&#10;created 3 new files which i;ll need for my homework" />
     <MESSAGE value="added my homework" />
     <MESSAGE value="added my homework part two" />
-    <option name="LAST_COMMIT_MESSAGE" value="added my homework part two" />
+    <MESSAGE value="added week 4 and OOP project day one + two" />
+    <option name="LAST_COMMIT_MESSAGE" value="added week 4 and OOP project day one + two" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

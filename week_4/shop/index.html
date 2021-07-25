@@ -10,15 +10,30 @@
 <body>
 <section class="products">
     <h1>List of products: </h1>
-    <ul>
+    <ul class="products-list">
         <li>
-            <strong>pickled cucumbers</strong> - 9.99 <button class="btn-buy-product" data-name="cucumber" data-price="9.99">BUY</button>
+            <strong>pickled cucumbers</strong> - 9.99
+            <button
+                class="btn-buy-product"
+                data-name="cucumber"
+                data-price="9.99">BUY
+            </button>
         </li>
         <li>
-            <strong>tomatos</strong> - 7.49 <button class="btn-buy-product" data-name="tomato" data-price="7.49">BUY</button>
+            <strong>tomatos</strong> - 7.49
+            <button
+                    class="btn-buy-product"
+                    data-name="tomato"
+                    data-price="7.49">BUY
+            </button>
         </li>
         <li>
-            <strong>lambo</strong> - 3075000.00 <button class="btn-buy-product" data-name="car" data-price="3075000.00">BUY</button>
+            <strong>lambo</strong> - 3075000.00
+            <button
+                    class="btn-buy-product"
+                    data-name="car"
+                    data-price="3075000.00">BUY
+            </button>
         </li>
     </ul>
 </section>
@@ -28,11 +43,36 @@
     <ul class="basket-list">
 
     </ul>
-    <button class="buy-all" disabled="true">order now</button>
+    <button class="buy-all"
+            disabled="true">Buy now: 0.00
+    </button>
+</section>
+
+<section class="admin-add-product">
+    <h1>Administration: add product: </h1>
+    <form class="form-add-product">
+            <input
+                    type="text"
+                   name="product-name"
+                   placeholder="add product name..."
+                   required>
+            <input
+                    type="number"
+                    name="product-price"
+                    placeholder="add price"
+                    required
+                    step="any">
+            <button
+                    type="submit">Add
+            </button>
+    </form>
+
+
 </section>
 
 <script src="src/basket.js"></script>
 <script src="src/ui.js"></script>
+<script src="src/admin-ui.js"></script>
 
 </body>
 </html>

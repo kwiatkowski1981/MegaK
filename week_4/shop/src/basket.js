@@ -5,9 +5,15 @@ class Basket {
         this.totalValue = 0;
     }
 
+    clear() {
+        this.items.length = 0;
+        // this.items.splice(0);
+        // this.items = [];
+    }
+
     add(item) {
         this.items.push(item);
-        this.addToTotalValue(item.price);
+        // this.addToTotalValue(item.price);
     }
 
     addToTotalValue(newPrice) {
@@ -31,8 +37,7 @@ class Basket {
 
     getTotalValue() {
         return this.items
-            .reduce((prev, curr) => prev + curr.price, 0)
-            .toFixed(2);
+            .reduce((prev, curr) => prev + curr.price, 0);
     }
 
     setNewPrice(newPrice) {
@@ -41,9 +46,17 @@ class Basket {
 
     getBasketSummary() {
         return this.items
-            .map((product, i) => `${i + 1} - ${product.name} - ${product.price.toFixed(2)}`);
+            .map((product, i) => {
+                return {
+                    id: i + 1,
+                    text: `${i + 1} - ${product.name} - ${product.price.toFixed(2)}`,
+
+                }
+            });
     }
 }
+
+
 
 class Product {
     constructor(productName, productPrice) {
