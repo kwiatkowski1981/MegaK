@@ -36,7 +36,7 @@ const addProductToBasket = event => {
 }
 
 const buyAllProducts = () => {
-        alert(`You have purchased products with a total value of: ${basket.getTotalValue()}$`);
+        alert(`You have purchased products with a total value of: ${basket.getTotalValue().toFixed(2)}$`);
         basket.clear();
         createBasketUi();
 };
@@ -47,3 +47,4 @@ for (const btn of buyBtns) {
 
 buyAllBtn.addEventListener('click', buyAllProducts);
 
+createBasketUi();

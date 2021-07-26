@@ -1,7 +1,12 @@
 class Basket {
     // items = [];   wersja nowa, krótsza bez wrzucania do konstruktora, js sam to zrobi
     constructor() {
-        this.items = [];
+        // const dataFromLS = this.loadFromLocalStorage();
+        // this.items = dataFromLS ? dataFromLS : [];
+        // this.items = dataFromLS || [];
+        // this.items = this.loadFromLocalStorage() || [];
+        this.items = this.loadFromLocalStorage() ?? [];
+
         this.totalValue = 0;
     }
 
@@ -9,10 +14,12 @@ class Basket {
         this.items.length = 0;
         // this.items.splice(0);
         // this.items = [];
+        this.saveToLocalStorage();
     }
 
     add(item) {
         this.items.push(item);
+        this.saveToLocalStorage();
         // this.addToTotalValue(item.price);
     }
 
@@ -24,7 +31,18 @@ class Basket {
         this.items.splice(index - 1, 1);
         // const item = this.items[index -1];
         // this.removeFromTotalValue(item.price);
+        this.saveToLocalStorage();
     }
+
+// TODO by adding purchased items set item counter and not add a new object
+    saveToLocalStorage() {
+        localStorage.setItem('basket-items', JSON.stringify(this.items));
+    }
+
+    loadFromLocalStorage() {
+        return JSON.parse(localStorage.getItem('basket-items'));
+    }
+
 
     removeFromTotalValue(value) {
         this.getTotalValue() - value;
@@ -55,7 +73,6 @@ class Basket {
             });
     }
 }
-
 
 
 class Product {
