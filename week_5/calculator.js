@@ -7,33 +7,27 @@ class Calculator {
         this.result = 0;
 
         if (
-             Number.isNaN(this.num1) || Number.isNaN(this.num2)
-        )
-        {
+            Number.isNaN(this.num1) || Number.isNaN(this.num2)
+        ) {
             throw new Error('Input is not a number.');
+        } else if (
+            Number(this.num1 === Number('')) ||
+            Number(this.num2 === Number(''))
+        ) {
+            throw new Error('Input can not be empty or be "0".');
         }
-       else if (
-           Number(this.num1 === Number('')) ||
-           Number(this.num2 === Number(''))
-       )
-       {
-            throw new Error('Input can not be empty.');
-        }
-
     }
+
 
     add() {
         return this.num1 + this.num2;
     }
-
     sub() {
         return this.num1 - this.num2;
     }
-
     mtp() {
         return this.num1 * this.num2;
     }
-
     div() {
         return this.num1 / this.num2;
     }
@@ -68,14 +62,12 @@ class Calculator {
     }
 
 }
+
 try {
-calculator1 = new Calculator();
-calculator1.chooseYourOption();
+    calculator1 = new Calculator();
+    calculator1.chooseYourOption();
 } catch (error) {
     console.log(error.message);
 }
 
-
-
-// calculator2 = new Calculator();
 
