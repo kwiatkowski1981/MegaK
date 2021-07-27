@@ -2,9 +2,16 @@ class Basket {
     // items = [];   wersja nowa, krótsza bez wrzucania do konstruktora, js sam to zrobi
     constructor() {
         // const dataFromLS = this.loadFromLocalStorage();
+        // if (dataFromLS) {
+        //     return [];
+        // } else {
+        //     return dataFromLS
+        // }
+        //
         // this.items = dataFromLS ? dataFromLS : [];
-        // this.items = dataFromLS || [];
-        // this.items = this.loadFromLocalStorage() || [];
+        // // this.items = dataFromLS || [];
+        // // this.items = this.loadFromLocalStorage() || [];
+
         this.items = this.loadFromLocalStorage() ?? [];
 
         this.totalValue = 0;
