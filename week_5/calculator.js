@@ -72,8 +72,3 @@ try {
 } catch (error) {
     console.log(error.message);
 }
-
-
-const b = prompt('podaj cyfre');
-const a = +b;
-console.log(typeof(a));
