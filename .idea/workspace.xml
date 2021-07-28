@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added week 5  basic error handling">
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="updated week 5  basic error handling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week_5/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_5/calculator.js" afterDir="false" />
     </list>
@@ -136,7 +136,7 @@
       <workItem from="1626362687836" duration="1223000" />
       <workItem from="1626422776159" duration="51869000" />
       <workItem from="1627106940515" duration="35554000" />
-      <workItem from="1627294747149" duration="16764000" />
+      <workItem from="1627294747149" duration="18389000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625936330516</created>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627387483112</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updated week 5  basic error handling">
+      <created>1627388079357</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627388079357</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +314,8 @@
     <MESSAGE value="added week 4  OOP project day five,&#10;localStorage functionality" />
     <MESSAGE value="added week 5  OOP project day five,&#10;localStorage functionality" />
     <MESSAGE value="added week 5  basic error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="added week 5  basic error handling" />
+    <MESSAGE value="updated week 5  basic error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated week 5  basic error handling" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

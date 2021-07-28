@@ -22,12 +22,15 @@ class Calculator {
     add() {
         return this.num1 + this.num2;
     }
+
     sub() {
         return this.num1 - this.num2;
     }
+
     mtp() {
         return this.num1 * this.num2;
     }
+
     div() {
         return this.num1 / this.num2;
     }
@@ -71,3 +74,6 @@ try {
 }
 
 
+const b = prompt('podaj cyfre');
+const a = +b;
+console.log(typeof(a));
