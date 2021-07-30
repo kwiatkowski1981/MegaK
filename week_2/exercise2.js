@@ -9,31 +9,28 @@ console.log(array3);
 console.log(array === array2);
 
 const obj1 = {
-    name: 'dfg',
-    lastName: 'ery',
+  name: 'dfg',
+  lastName: 'ery',
 };
 
 const obj2 = {
-    ...obj1,
-    age: 100,
+  ...obj1,
+  age: 100,
 };
 
 const obj3 = {
-    ...obj1,
-    age: 100,
-    name: 'buba', // zmiana właściwości przez nadpisanie jej, jak by w kodzie było niżej zadeklarowane nowe imie
+  ...obj1,
+  age: 100,
+  name: 'buba', // zmiana właściwości przez nadpisanie jej, jak by w kodzie było niżej zadeklarowane nowe imie
 };
 
 const obj4 = {
-    name: 'sroka', // kolejnosc ma znaczenie, właściwość nie została zmieniona!
-    ...obj1,
-    age: 1000,
+  name: 'sroka', // kolejnosc ma znaczenie, właściwość nie została zmieniona!
+  ...obj1,
+  age: 1000,
 };
 
 console.log(obj1);
 console.log(obj2);
 console.log(obj3);
 console.log(obj4);
-
-
-

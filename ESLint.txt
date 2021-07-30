@@ -1,0 +1,20 @@
+npm init -y
+
+npm i -D eslint babel-eslint es-lint-config-airbnb
+
+plik o nazwie ".eslintrc"
+o zawartości:
+
+{
+"parserOptions":{
+"ecmaVersion":2021
+},
+"env":{
+"browser":true,
+"node":true
+},
+"parser":"babel-eslint",
+"extends":"airbnb",
+"rules":{}
+}
+

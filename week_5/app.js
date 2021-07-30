@@ -5,7 +5,6 @@
 //     console.log(x);
 // }
 
-
 /**
  * UWAGA! Otwórz narzędzia deweloperskie przeglądarki i dopiero uruchom ten kod!
  *
@@ -17,21 +16,21 @@ debugger;
 const guestList = [];
 
 function addPerson(name, surname, age) {
-    const fullName = `${name} ${surname}`;
-    if (age >= 18) {
-        guestList.push(fullName);
-    } else {
-        // Zauważ, że Repl może powodowac niepotrzebne wchodzenie do metody console.log. Użyj "Step out of function", żeby wyjść z niego.
-        console.log(`${fullName} is under age, cannot add to guests list.`);
-    }
+  const fullName = `${name} ${surname}`;
+  if (age >= 18) {
+    guestList.push(fullName);
+  } else {
+    // Zauważ, że Repl może powodowac niepotrzebne wchodzenie do metody console.log. Użyj "Step out of function", żeby wyjść z niego.
+    console.log(`${fullName} is under age, cannot add to guests list.`);
+  }
 }
 
 function generateHelloText(name) {
-    return `Hello, ${name} it is a pleasure to see you!`;
+  return `Hello, ${name} it is a pleasure to see you!`;
 }
 
 function greet(personName) {
-    console.log(generateHelloText(personName));
+  console.log(generateHelloText(personName));
 }
 
 addPerson('Testowa', 'Osoba', 100);
@@ -40,5 +39,5 @@ addPerson('Mieszko', 'Pierwszy', 35);
 addPerson('Młoda', 'Osoba', 15);
 
 for (const person of guestList) {
-    greet(person);
+  greet(person);
 }

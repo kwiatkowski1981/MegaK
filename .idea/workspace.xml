@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="updated week 5  basic error handling">
-      <change afterPath="$PROJECT_DIR$/week_5/app.js" afterDir="false" />
+    <list default="true" id="29e0176a-4af3-4c4a-8022-b0da71bd992c" name="Default Changelist" comment="added template code to try debug">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ESLint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week_5/app2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_1/exercise1.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_1/exercise1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_1/exercise2.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_1/exercise2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise1.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise2.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise3.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise4.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise5.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise6.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise7.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise8.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/exercise9.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/exercise9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/DOM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/DOM/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/DOM2/introductionToJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/DOM2/introductionToJson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/DOM2/localstorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/DOM2/localstorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/exercise1.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/exercise1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/exercise2.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/exercise2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/exercise3.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/exercise3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/exercise4.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/exercise4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/exercise5.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/exercise5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/homework/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/homework/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/homework_part_two/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/homework_part_two/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/exercise1.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/exercise1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/exercise2.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/exercise2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/shop/src/admin-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/shop/src/admin-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/shop/src/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/shop/src/basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/shop/src/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/shop/src/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_5/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_5/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_5/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/week_5/calculator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +83,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JSExplicifyFields.moveToInitializer" value="true" />
-    <property name="JSInitializeFieldsIntentionBase.visibility" value="private" />
+    <property name="JSInitializeFieldsIntentionBase.visibility" value="public" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.5.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.4.5" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.4.6" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/week_3/DOM2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +112,10 @@
       <recent name="$PROJECT_DIR$/week_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.app2.js">
+    <configuration name="app2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_5/app2.js" working-dir="$PROJECT_DIR$/week_5">
+      <method v="2" />
+    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_5/app.js" working-dir="$PROJECT_DIR$/week_5">
       <method v="2" />
     </configuration>
@@ -81,26 +125,23 @@
     <configuration name="calculator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_5/calculator.js" working-dir="$PROJECT_DIR$/week_5">
       <method v="2" />
     </configuration>
-    <configuration name="exercise1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_4/exercise1.js" working-dir="$PROJECT_DIR$/week_4">
-      <method v="2" />
-    </configuration>
     <configuration name="exercise2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week_4/exercise2.js" working-dir="$PROJECT_DIR$/week_4">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.exercise1.js" />
       <item itemvalue="Node.js.exercise2.js" />
       <item itemvalue="Node.js.basket.js" />
       <item itemvalue="Node.js.calculator.js" />
       <item itemvalue="Node.js.app.js" />
+      <item itemvalue="Node.js.app2.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.app2.js" />
         <item itemvalue="Node.js.calculator.js" />
+        <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.basket.js" />
         <item itemvalue="Node.js.exercise2.js" />
-        <item itemvalue="Node.js.exercise1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +177,9 @@
       <workItem from="1626362687836" duration="1223000" />
       <workItem from="1626422776159" duration="51869000" />
       <workItem from="1627106940515" duration="35554000" />
-      <workItem from="1627294747149" duration="21219000" />
+      <workItem from="1627294747149" duration="25386000" />
+      <workItem from="1627548722525" duration="8721000" />
+      <workItem from="1627635934315" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625936330516</created>
@@ -292,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627461255198</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added template code to try debug">
+      <created>1627470838074</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1627470838074</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +379,8 @@
     <MESSAGE value="added week 5  OOP project day five,&#10;localStorage functionality" />
     <MESSAGE value="added week 5  basic error handling" />
     <MESSAGE value="updated week 5  basic error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated week 5  basic error handling" />
+    <MESSAGE value="added template code to try debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="added template code to try debug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

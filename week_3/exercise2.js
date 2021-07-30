@@ -37,6 +37,6 @@ const prompt = require('prompt-sync')();
 // })();
 
 (async () => {
-    const response = await(await fetch('https://swapi.dev/api/people/1/')).json();
-    console.log(response);
+  const response = await (await fetch('https://swapi.dev/api/people/1/')).json();
+  console.log(response);
 })();

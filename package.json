@@ -3,5 +3,28 @@
     "jest": "^27.0.6",
     "node-fetch": "^2.6.1",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "untitled",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwiatkowski1981/MegaK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwiatkowski1981/MegaK/issues"
+  },
+  "homepage": "https://github.com/kwiatkowski1981/MegaK#readme",
+  "description": ""
 }

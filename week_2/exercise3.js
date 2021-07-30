@@ -1,12 +1,12 @@
 const sum = (...args) => {
-    let sumOfGivenArguments = 0;
-    for (let i = 0; i < args.length; i++) {
-        if (typeof args[i] !== 'number') {
-            console.log('All arguments must be numbers!');
-            return;
-        } else sumOfGivenArguments += args[i];
-    }
-    console.log(sumOfGivenArguments);
+  let sumOfGivenArguments = 0;
+  for (let i = 0; i < args.length; i++) {
+    if (typeof args[i] !== 'number') {
+      console.log('All arguments must be numbers!');
+      return;
+    } sumOfGivenArguments += args[i];
+  }
+  console.log(sumOfGivenArguments);
 };
 
 sum(1);
@@ -19,4 +19,3 @@ sum();
 // sumOfGivenNumbers = args.reduce(function (a, b) {
 //     return a + b
 // }, 0);
-
