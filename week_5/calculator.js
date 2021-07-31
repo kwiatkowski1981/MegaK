@@ -2,24 +2,22 @@ const prompt = require('prompt-sync')();
 
 class Calculator {
   constructor() {
-    this.num1 = Number(prompt('podaj pierwszą liczbę: '));
-    this.num2 = Number(prompt('podaj drugą liczbę: '));
+    this.num1 = Number(prompt('Enter the first number: '));
+    this.num2 = Number(prompt('Enter the second number: '));
     this.result = 0;
-    this.option = Number(prompt('Wybierz numer opcji: 1: dodaj, 2: odejmij, 3: pomnóż, 4: podziel '));
+    this.option = Number(prompt('Select an option number: 1: add, 2: subtract, 3: multiply, 4: divide '));
     this.validateInputData();
   }
 
   validateInputData() {
     if (
-      Number.isNaN(this.num1)
-            || Number.isNaN(this.num2)
+      Number.isNaN(this.num1) || Number.isNaN(this.num2)
     ) {
-      throw new Error('Input is not a number.');
+      throw new Error('Input is not a number. ');
     } else if (
-      this.num1 === Number('')
-            || this.num2 === Number('')
+      this.num1 === Number('') || this.num2 === Number('')
     ) {
-      throw new Error('Input can not be empty or be "0".');
+      throw new Error('Input can not be "0" or empty. ');
     }
   }
 
@@ -40,59 +38,53 @@ class Calculator {
   }
 
   printResult() {
-    console.log(`Twój wynik to: ${this.result}`);
+    console.log(`Your score is: ${this.result}`);
   }
 
   printChosenOption() {
-    const { option } = this;
-    switch (option) {
+    switch (this.option) {
       case 1:
-        'dodawania';
+        console.log('You chose the add option: ');
         break;
       case 2:
-        'odejmowania';
+        console.log('You chose the subtract option: ');
         break;
       case 3:
-        'mnożenia';
+        console.log('You chose the multiply option. ');
         break;
       case 4:
-        'dzielenia';
+        console.log('You chose the divide option. ');
         break;
       default:
-        '';
+        console.log('');
     }
+  }
 
-    console.log(`Wybrałeaś/eś opcję ${option}`);
+  optionsToAdd() {
+    this.printChosenOption();
+    this.printResult();
   }
 
   chooseYourOption() {
     switch (this.option) {
       case 1:
         this.result = this.add();
-        // console.log('wybrałeś opcję dodawania.');
-        this.printChosenOption();
-        this.printResult();
+        this.optionsToAdd();
         break;
       case 2:
         this.result = this.sub();
-        // console.log('wybrałeś opcję odejmowania.');
-        this.printChosenOption();
-        this.printResult();
+        this.optionsToAdd();
         break;
       case 3:
         this.result = this.mtp();
-        this.printChosenOption();
-        this.printResult();
-        // console.log('wybrałeś opcję mnożenia.');
+        this.optionsToAdd();
         break;
       case 4:
         this.result = this.div();
-        this.printChosenOption();
-        this.printResult();
-        // console.log('wybrałeś opcję dzielenia.');
+        this.optionsToAdd();
         break;
       default:
-        console.log('nie ma takiej opcji.');
+        console.log('There is no such option to choose. ');
     }
   }
 }
